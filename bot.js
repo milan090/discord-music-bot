@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
+const { getYoutubeVideoInfo } = require('./api/youtube');
 const {
   prefix,
   token
 } = require('./config.json');
-const { getYoutubeVideoInfo } = require('./api/youtube');
 
 // Commands
 const { play } = require('./commands/play');

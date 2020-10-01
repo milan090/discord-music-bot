@@ -1,6 +1,4 @@
-const { prefix } = require('../config.json');
 const playSongs = require('./playSongs');
-const { stop } = require('./stop');
 
 async function skip(message, songConstruct){
   const {songs} = songConstruct;
